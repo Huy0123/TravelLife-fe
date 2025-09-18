@@ -1,27 +1,27 @@
 // Dropdown options constants
 export const TIME_OPTIONS = [
-    { value: "09:00 AM", label: "09:00 AM" },
-    { value: "10:00 AM", label: "10:00 AM" },
-    { value: "11:00 AM", label: "11:00 AM" },
-    { value: "02:00 PM", label: "02:00 PM" },
-    { value: "03:00 PM", label: "03:00 PM" },
-    { value: "04:00 PM", label: "04:00 PM" }
+  { value: "09:00 AM", label: "09:00 AM" },
+  { value: "10:00 AM", label: "10:00 AM" },
+  { value: "11:00 AM", label: "11:00 AM" },
+  { value: "02:00 PM", label: "02:00 PM" },
+  { value: "03:00 PM", label: "03:00 PM" },
+  { value: "04:00 PM", label: "04:00 PM" }
 ];
 
 export const TOUR_OPTIONS = [
-    { value: "City Walking Tour", label: "City Walking Tour" },
-    { value: "Historical Sites Tour", label: "Historical Sites Tour" },
-    { value: "Food & Culture Tour", label: "Food & Culture Tour" },
-    { value: "Adventure Tour", label: "Adventure Tour" },
-    { value: "Photography Tour", label: "Photography Tour" }
+  { value: "City Walking Tour", label: "City Walking Tour" },
+  { value: "Historical Sites Tour", label: "Historical Sites Tour" },
+  { value: "Food & Culture Tour", label: "Food & Culture Tour" },
+  { value: "Adventure Tour", label: "Adventure Tour" },
+  { value: "Photography Tour", label: "Photography Tour" }
 ];
 
 export const TRANSPORT_OPTIONS = [
-    { value: "Walking", label: "Walking" },
-    { value: "Bus", label: "Bus" },
-    { value: "Car", label: "Car" },
-    { value: "Bicycle", label: "Bicycle" },
-    { value: "Boat", label: "Boat" }
+  { value: "Walking", label: "Walking" },
+  { value: "Bus", label: "Bus" },
+  { value: "Car", label: "Car" },
+  { value: "Bicycle", label: "Bicycle" },
+  { value: "Boat", label: "Boat" }
 ];
 
 export const slides = [
@@ -65,6 +65,19 @@ export const slides = [
     group: "5-12 PP",
     desc: "A tour of the city and its surroundings led by a professional guide..."
   },
-  
+
 
 ]
+
+export const feedback = [
+  {
+    img: "/person1.png",
+    name: "John Doe",
+    feedback: "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure"
+  },
+  {
+    img: "/person2.png",
+    name: "Jane Smith",
+    feedback: "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure"
+  }
+];
